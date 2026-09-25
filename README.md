@@ -1,53 +1,61 @@
-### Hi, I'm Klenio.
+<img src="assets/banner.svg" alt="Klenio Braz · Audiovisual producer who builds the tools" width="100%"/>
 
-Audiovisual producer who started building the tools.
 I design and run AI-powered systems for video production and marketing operations at [Grupo SB](https://github.com/seubone), in Natal, Brazil.
 
 I build with AI coding agents every day. What I own is the part they don't:
 the problem, the architecture, the constraints, production operations, and measuring whether the AI output is actually good.
 
----
+<img src="assets/divider.svg" width="100%"/>
 
-#### What I'm building
+### What I'm building
 
-**SB Clips** · *internal platform, private* · [case study →](https://github.com/kleniobraz/sb-clips-case-study)
+#### 🎬 SB Clips
+*Internal platform, private* · [**read the case study →**](https://github.com/kleniobraz/sb-clips-case-study)
 
 Turns long podcasts into ready-to-publish vertical clips and full YouTube episodes.
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0A0A0A','primaryTextColor':'#FFFFFF','primaryBorderColor':'#7FD96B','lineColor':'#7FD96B','fontFamily':'monospace','fontSize':'14px'}}}%%
 flowchart LR
   A[Upload] --> B[FFmpeg audio]
   B --> C[Whisper on RunPod]
   C --> D[LLM scoring by audience fit]
   D --> E[YOLO reframe 9:16]
   E --> F[Burned-in captions]
-  F --> G[S3]
+  F --> G[Ready to publish]
+  classDef ship fill:#7FD96B,color:#0A0A0A,stroke:#7FD96B,font-weight:bold
+  class G ship
 ```
 
 `Python` `Flask` `Next.js` `n8n` `RunPod serverless GPU` `Claude API` `YOLO` `FFmpeg` `S3` `nginx` `pytest`
 Includes evaluation scripts for reframing quality and caption review.
 
-**MKT Hub** · *internal platform, private, team project*
+#### 🗂️ MKT Hub
+*Internal platform, private, team project*
 
 Operations platform for the Grupo SB marketing team: tasks, delivery checklists, an AI reviewer for creative deliverables, and a REST API.
 
 `TypeScript` `Next.js` `Drizzle` `Postgres` `Zod` `Docker` `GitHub Actions CI`
 
-**Auto SFX Panel** · *public* · [repo →](https://github.com/kleniobraz/autosfxklenio)
+#### 🔊 Auto SFX Panel
+*Public* · [**repo →**](https://github.com/kleniobraz/autosfxklenio)
 
 Premiere Pro panel that places sound effects on timeline cuts automatically.
 
----
+<img src="assets/divider.svg" width="100%"/>
 
-#### How I work
+### How I work
 
-Spec first, then agents. Every system has a written contract (state machine, cost rules, what must never happen) that the agents follow.
-Changes go through branches, pull requests and CI. I operate what I ship: VPS, deploys, incidents and fixes.
+**Spec first, then agents.** Every system has a written contract (state machine, cost rules, what must never happen) that the agents follow.
+**I operate what I ship.** Branches, pull requests and CI on the way in; VPS, deploys, incidents and fixes after.
 
-#### Currently learning
+### Currently learning
 
 AI evaluation · Python fundamentals · software architecture · paid traffic analytics
 
----
+<img src="assets/divider.svg" width="100%"/>
 
-[LinkedIn](https://www.linkedin.com/in/kleniobraz/) · [Instagram](https://www.instagram.com/kleniobraz/)
+<p>
+  <a href="https://www.linkedin.com/in/kleniobraz/"><img src="https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=7FD96B" alt="LinkedIn"/></a>
+  <a href="https://www.instagram.com/kleniobraz/"><img src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=7FD96B" alt="Instagram"/></a>
+</p>

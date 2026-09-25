@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="24" viewBox="0 0 1280 24" role="img" aria-label="divider">
+  <style>.seg{animation:run 7s linear infinite}@keyframes run{from{transform:translateX(-160px)}to{transform:translateX(1280px)}}</style>
+  <path d="M0 12H1280" stroke="#8884" stroke-width="2"/>
+  <g class="seg"><rect x="0" y="11" width="160" height="2" fill="#7FD96B"/><path d="M160 4V20" stroke="#7FD96B" stroke-width="2"/></g>
+</svg>

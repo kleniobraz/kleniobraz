@@ -14,18 +14,7 @@ the problem, the architecture, the constraints, production operations, and measu
 
 Turns long podcasts into ready-to-publish vertical clips and full YouTube episodes.
 
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0A0A0A','primaryTextColor':'#FFFFFF','primaryBorderColor':'#7FD96B','lineColor':'#7FD96B','fontFamily':'monospace','fontSize':'14px'}}}%%
-flowchart LR
-  A[Upload] --> B[FFmpeg audio]
-  B --> C[Whisper on RunPod]
-  C --> D[LLM scoring by audience fit]
-  D --> E[YOLO reframe 9:16]
-  E --> F[Burned-in captions]
-  F --> G[Ready to publish]
-  classDef ship fill:#7FD96B,color:#0A0A0A,stroke:#7FD96B,font-weight:bold
-  class G ship
-```
+<img src="assets/pipeline.svg" alt="SB Clips pipeline: upload, FFmpeg audio, Whisper on RunPod, LLM scoring, YOLO reframe 9:16, burned-in captions, ready to publish" width="100%"/>
 
 `Python` `Flask` `Next.js` `n8n` `RunPod serverless GPU` `Claude API` `YOLO` `FFmpeg` `S3` `nginx` `pytest`
 Includes evaluation scripts for reframing quality and caption review.

@@ -9,7 +9,7 @@ the problem, the architecture, the constraints, production operations, and measu
 
 ### What I'm building
 
-#### 🎬 SB Clips
+#### <img src="assets/i-clips.svg" height="16"/>&nbsp; SB Clips
 *Internal platform, private* · [**read the case study →**](https://github.com/kleniobraz/sb-clips-case-study)
 
 Turns long podcasts into ready-to-publish vertical clips and full YouTube episodes.
@@ -19,14 +19,14 @@ Turns long podcasts into ready-to-publish vertical clips and full YouTube episod
 `Python` `Flask` `Next.js` `n8n` `RunPod serverless GPU` `Claude API` `YOLO` `FFmpeg` `S3` `nginx` `pytest`
 Includes evaluation scripts for reframing quality and caption review.
 
-#### 🗂️ MKT Hub
+#### <img src="assets/i-hub.svg" height="16"/>&nbsp; MKT Hub
 *Internal platform, private, team project*
 
 Operations platform for the Grupo SB marketing team: tasks, delivery checklists, an AI reviewer for creative deliverables, and a REST API.
 
 `TypeScript` `Next.js` `Drizzle` `Postgres` `Zod` `Docker` `GitHub Actions CI`
 
-#### 🔊 Auto SFX Panel
+#### <img src="assets/i-sfx.svg" height="16"/>&nbsp; Auto SFX Panel
 *Public* · [**repo →**](https://github.com/kleniobraz/autosfxklenio)
 
 Premiere Pro panel that places sound effects on timeline cuts automatically.
@@ -36,6 +36,7 @@ Premiere Pro panel that places sound effects on timeline cuts automatically.
 ### How I work
 
 **Spec first, then agents.** Every system has a written contract (state machine, cost rules, what must never happen) that the agents follow.
+
 **I operate what I ship.** Branches, pull requests and CI on the way in; VPS, deploys, incidents and fixes after.
 
 ### Currently learning
@@ -45,6 +46,6 @@ AI evaluation · Python fundamentals · software architecture · paid traffic an
 <img src="assets/divider.svg" width="100%"/>
 
 <p>
-  <a href="https://www.linkedin.com/in/kleniobraz/"><img src="https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=7FD96B" alt="LinkedIn"/></a>
-  <a href="https://www.instagram.com/kleniobraz/"><img src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=7FD96B" alt="Instagram"/></a>
+  <a href="https://www.linkedin.com/in/kleniobraz/"><img src="assets/linkedin.svg" height="40" alt="LinkedIn"/></a>&nbsp;
+  <a href="https://www.instagram.com/kleniobraz/"><img src="assets/instagram.svg" height="40" alt="Instagram"/></a>
 </p>
